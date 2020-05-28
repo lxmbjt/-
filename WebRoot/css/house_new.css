@@ -1,0 +1,413 @@
+/*ÀèÐ¡Âü*/ 
+@CHARSET "UTF-8";
+#main-wrap{
+	background:#f4f8fa;
+}
+
+#main-slider{
+	width:100%;
+	height:550px;
+}
+
+.slide img{
+	width:100%;
+	height:550px;
+	left:0;
+	top:61px;
+	position:absolute;
+	 
+}
+.anim{
+	position:absolute; 
+	 transition: ease-in-out;
+   -moz-animation-name: fadeInOut; 
+    -moz-animation-duration: 6s; 
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-delay: 0s; /*ÑÓ³ÙÊ±¼ä*/
+      
+}
+
+
+#arr span{
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            margin-top: -20px;
+            background:#3a3a3a;
+            cursor: pointer;
+            line-height: 70px;
+            text-align: center;
+            vertical-align: middle;       
+            font-size: 30px;
+            color: #fff;
+            opacity: 0.5;           
+            border-radius:50%;
+            z-index:100;
+        }
+#left img{
+	margin-top: 33px;
+	transform: rotate(90deg);
+	margin-left:-2px;
+	
+}
+#arr #right {
+            right: 5px;
+            left: auto;
+        }
+#right img{
+	margin-top: 33px;
+	transform: rotate(-90deg);
+	margin-left:-2px;
+}
+
+.house-and-owner{
+	height:410px;
+	dispaly:inline-block;
+	padding-top:10px;
+}
+.houseinfo-container{
+	margin-top:70px;
+	margin-left:70px;
+	width:52%;
+	height:410px;
+	padding:30px;
+	background:white;
+	dispaly:inline-block;
+}
+.house-info{
+	width:100%;
+	height:320px;
+}
+.entry-title{
+	font-size:20px;
+	font-weight:bold;
+	width:100%;
+	margin-bottom:30px;
+	padding-bottom:30px;
+	border-bottom: 1px solid #e5e5e5;
+	display:inline-block;
+}
+.clearfix{
+	list-style:none;
+	margin-left:-20px;
+}
+.clearfix-li{
+	padding-bottom:10px;
+}
+.house-info-pic{
+	display:inline-block;
+	float:right;
+	width:50%;
+	height:220px;
+	
+}
+.property-single-meta{
+	display:inline-block;
+	width:100%;
+	height:300px;
+}
+.property-single-meta-span{
+	font-size:14px;
+	color:#707070;
+	
+}
+.property-single-meta-span2{
+	font-size:14px;
+	color:#6c98e1;
+	margin-left:20px;
+	
+}
+.house-info-pic img{
+	padding:15px;
+	width:300px;
+	height:200px;
+	position:absolute;
+	
+}
+
+.house-facility-container{
+	width:52%;
+	margin-left:70px;
+	margin-top:130px;
+	padding:30px;
+	background:white;
+	
+}
+
+.house-facility{
+	width:100%;	
+}
+
+.facility{
+	color:darkgray;
+	font-size:15px;
+	display:inline-block;
+	position:relative;
+	width:80px;
+	line-height:18px;
+	padding-top:39px;
+	margin-bottom:27px;
+	text-align:center;
+	float:none;
+
+}
+
+.facility img{
+	width:25px;
+	height:25px;
+	top:0;
+¡¡¡¡¡¡bottom:0;
+¡¡¡¡¡¡left:0;
+¡¡¡¡¡¡right:0;
+}
+.house-description-container{
+	width:52%;
+	margin-left:70px;
+	margin-top:50px;
+	padding:30px;
+	background:white;
+	dispaly:inline-block;
+}
+.house-description{
+	width:100%;
+	
+}
+.house-description-wrapper{
+	font-size:15px;
+	color:black;
+}
+
+.sharHouseWrapper{
+	width:200px;
+	height:40px;
+	margin-left:25%;
+	margin-top:-50px;
+	position:absolute;
+}
+.starHouse-container{
+	width:100px;
+	height:30px;
+	background-color:#f0a34a;
+	text-align:center;
+    border-radius:4px;
+    position:absolute;
+    display:inline-block;
+    font-size:15px;
+    vertical-align: middle;
+    
+}
+.star-text{
+	padding-top:5px;
+	margin-bottom:2px;
+	font-size:15px;
+	color:white;
+	text-align:center;
+	
+}
+.show-star-text{
+	margin-left:120px;
+	margin-top:5px;
+	width:60px;
+	background:#6c98e1;
+	color:white;
+	border-radius:4px;
+	text-align:center;
+	vertical-align: middle;
+	
+}
+
+.status{
+	margin-left:200px;
+	margin-top:5px;
+	width:60px;
+	background:gray;
+	color:white;
+	border-radius:4px;
+	text-align:center;
+	vertical-align: middle;
+}
+.entry-title2{
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:30px;
+	padding-bottom:30px;
+	border-bottom: 1px solid #e5e5e5;
+	display:inline-block;
+}
+.report{
+	width:70px;
+	height:30px;
+	background:#6c98e1;
+	color:white;
+	border-radius:4px;
+	text-align:center;
+	vertical-align: middle;
+	line-height:30px;
+}
+.report-container{
+	width:60px;
+	display:inline-block;
+	margin-left:120px;
+	margin-top:-33px;
+	
+}
+.house-owner-container{
+	width:30%;
+	height:280px;
+	display:inline-block;
+	padding:30px;
+	background:white;
+	position:relative;
+	margin-left:65%;
+	margin-top:-420px;
+	
+}
+.owner-head-portrait{
+	width:100px;
+	height:150px:
+	
+	
+}
+.owner-head-portrait img{
+	width:100px;
+	height:120px:
+}
+.owner-name{
+	font-size:15px;
+	font-weight:600;
+	color:#333;
+	
+}
+.owner-info-text{
+	margin-top:20px;
+	font-size:15px;
+	width:200px;
+	height:100px;
+	display:inline-block;
+	margin-left:120px;
+	margin-top:-120px;
+	
+}
+.reserve{
+height:30px;
+position:relative;
+margin-top:10px;
+width:100px;
+background-color:#f0a34a;
+text-align:center;
+border-radius:4px;
+}
+.reserveInfo{
+	padding-top:3px;
+	font-size:15px;
+	color:#fff;
+	text-align:center;
+}
+.recommendHousesContainer{
+	width:30%;
+}
+.recommendHouses{
+	dispaly:inline-block;
+	margin-left:-30px;
+	margin-top:100px;
+	padding-top:20px;
+	width:100%;
+	position:absolute;
+	font-size:21px;
+	background:white;
+	padding:30px;
+}
+.houseItem{
+	width:100%;
+	height:150px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom:15px;
+		
+}
+.pic{
+	width:170px;
+	height:120px;
+	position:absolute;
+	
+
+}
+.houseItem img{
+	width:100%;
+	height:120px;
+}
+.houseItem-detail{
+	width:40%;
+	height:120px;
+	margin-left:180px;
+	position:absolute;
+	font-color:red;
+}
+.houseItemtitle{
+	font-size:13px;
+	color:black;
+
+}
+.HouseItem-specific-info{
+	
+}
+.HouseItem-specific-info-font{
+	font-size:12px;
+	color:gray;
+}
+.HouseItemcharge{
+	font-size:20px;
+	color:red;	
+	
+}
+.HouseItemcharge-font{
+	font-size:20px;
+	color:#6c98e1;
+}
+.house-pic-container{
+	width:52%;
+	background:white;
+	margin-top:50px;
+	margin-left:70px;
+	padding:30px;
+}
+.house-pic-list{	
+	width:100%;
+	position:relative;
+	display:inline-block;
+	padding:0;
+	
+}
+
+.house-pic-list-item{
+	display:inline-block;
+	padding:5px;
+	
+}
+.house-pic-list-item img{
+	width:180px;
+	height:100px;
+	cursor:pointer;
+	
+}
+
+.button{
+	display:block;
+	width:100%;
+	height:46px;
+	background:#E6E6FA;
+	color:black;
+	list-style:none;
+	outline:none;
+	border:none;
+	border-radius:4px;
+	margin-top:20px;
+
+}
+.hiddenimg{
+	display:none;
+}
+
